@@ -1,0 +1,21 @@
+#container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.square {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+button {
+    margin-bottom: 10px;
+}
